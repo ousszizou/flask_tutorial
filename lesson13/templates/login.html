@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>login page</title>
+</head>
+<body>
+    <h1>Login Page</h1>
+    {% if error %}
+        <p style="color: red"><strong>{{ error }}</strong></p>
+    {% endif %}
+    <form action="/login" method="POST">
+        <input type="text" name="username" placeholder="enter your username">
+        <input type="password" name="password" placeholder="enter your password">
+        <input type="submit" value="Login">
+    </form>
+
+</body>
+</html>

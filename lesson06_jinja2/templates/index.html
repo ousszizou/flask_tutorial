@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% from "forms.html" import input %}
+
+{% block title %}{{ title }}{% endblock %}
+{% block body %}
+    {{ super() }}
+    {# this is a comment1 #}
+
+    {{ my_variable|default('my_variable is not defined') }}
+    <!-- this is a comment2 -->
+
+{% endblock %}

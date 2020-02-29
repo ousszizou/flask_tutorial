@@ -1,0 +1,13 @@
+
+# Global request object
+
+    ## attributes :
+
+        - form
+        - args => localhost:8080/quotes?id=1
+        - cookies
+        - method
+            .
+            .
+            .
+            .

@@ -1,0 +1,38 @@
+
+## functional structure :
+
+    yourapp/
+        __init__.py
+        static/
+        templates/
+            layout.html
+            home/
+            control_panel/
+            admin/
+        views/
+            __init__.py
+            home.py
+            control_panel.py
+            admin.py
+        models.py
+
+## divisional structure :
+
+    yourapp/
+        __init__.py
+        admin/
+            __init__.py
+            views.py
+            static/
+            templates/
+        home/
+            __init__.py
+            views.py
+            static/
+            templates/
+        control_panel/
+            __init__.py
+            views.py
+            static/
+            templates/
+        models.py

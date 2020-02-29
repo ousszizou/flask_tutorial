@@ -1,0 +1,27 @@
+
+// delimiters
+
+    {% ... %} for Statements
+    {{ ... }} for Expressions to print to the template output
+    {# ... #} for Comments not included in the template output
+
+// Template Inheritance
+
+    templates/
+        layout.html (parent template)
+        index.html
+        about.html
+        profile/
+            layout.html (parent template)
+            index.html
+        photos.html
+        admin/
+            layout.html (parent template)
+            index.html
+            analytics.html
+
+
+// Macros => (DRY)
+// For
+// If
+// filters
